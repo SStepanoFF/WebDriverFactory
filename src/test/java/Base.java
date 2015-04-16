@@ -13,7 +13,7 @@ public class Base {
 
     @BeforeMethod
     public void startBrowser() {
-        driver = WebDriverFactory.getDriver(DesiredCapabilities.firefox());
+        driver = WebDriverFactory.getDriver(DesiredCapabilities.chrome());
     }
     //
 
