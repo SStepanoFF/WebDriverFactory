@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" verbose="1" >
+  <test verbose="1" name="WebDriverFactory"  preserve-order="true">
+    <classes>
+      <class name="TestNgWebDriverSample">
+        <methods>
+            <include name="test1"/>
+        </methods>
+        </class>
+    </classes>
+  </test>
+    <test verbose="1" name="WebDriverFactory2"  preserve-order="true">
+        <classes>
+            <class name="TestNgWebDriverSample">
+                <methods>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
